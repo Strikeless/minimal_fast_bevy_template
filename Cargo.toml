@@ -7,7 +7,7 @@ edition = "2024"
 
 [dependencies]
 # Note that you'll have to remove dynamic linking if you don't want to supply libbevy_dylib with release!
-bevy = { version = "0.16", features = ["dynamic_linking"] } 
+bevy = { version = "0.17", features = ["dynamic_linking"] } 
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
